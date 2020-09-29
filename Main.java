@@ -110,7 +110,7 @@ class Main {
     Scanner sct = new Scanner(System.in);
     int entradaNumTeclado = 0;
     String entradaStrTeclado = "";
-    int quedarse = true;
+    boolean quedarse = true;
     do{
       System.out.println("Que ejemplo deseas ver:");
       System.out.println("(1) Ejemplo 2:");
@@ -128,7 +128,7 @@ class Main {
         //objeto.Ejemplo3(entradaStrTeclado);
       }
       if(entradaNumTeclado == 3){
-        quedarse = false;
+          quedarse = false;
         System.out.println("Bye");
       }
     }while(quedarse);
